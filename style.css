@@ -15,10 +15,10 @@
 a {
   margin-left: 291px !important;
 }
-.container  {
+/* .container  {
   max-width: 1600px;
   margin: 0 auto;
-}
+} */
 .navigation {
   display: flex;
   justify-content: space-between;
@@ -66,10 +66,10 @@ a {
 .content {
   grid-column: 2;
   grid-row: 1;
-  
+  gap: 63px !important;
 }
 
-.u img {
+/* .u img {
   grid-column: 1;
   margin-right: 16px !important;
   fill: #f16d7f;
@@ -93,7 +93,7 @@ font-size: 32px;
 font-weight: 700;
 font-size: 32px;
 color: #f16d7f;
-}
+} */
 
 .cardBig {
   display: grid;
@@ -214,5 +214,4 @@ text-align: center;
   background-color: transparent;
   cursor: pointer;
 }
-
 
